@@ -1,0 +1,8 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^blog/(.*)/amp$ blog.php?slug=$1&formato=amp [QSA]
+RewriteRule ^blog/(.*)$ blog.php?slug=$1 [QSA]
+</IfModule>
+

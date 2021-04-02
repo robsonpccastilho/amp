@@ -1,0 +1,9 @@
+Colocar os fontes no diretório
+
+D:\xampp\htdocs
+
+Exemplo: 
+D:\xampp\htdocs\Wamp
+D:\xampp\htdocs\Fernanda
+
+
