@@ -1,8 +1,12 @@
+<?php 
+header('Location: http://www.rcastilho.com.br/blog.php?formato=amp');
+Die();
+?> 
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>2021 - Robson Castilho - AMP e PHP -  1.1v</title>
+		<title>2021 - Robson Castilho - AMP e PHP -  1.2v</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 		
@@ -21,13 +25,14 @@
 		
 	</head>
 
+
 	<body>
 	
 		<article>
 	
 			<header>
 				<h1>Jesus Cristo Rei dos Reis e Senhor dos Senhores</h1>
-				<h1>2021 - Robson Castilho - AMP e PHP -  1.1v</h1>
+				<h1>2021 - Robson Castilho - AMP e PHP -  1.2v</h1>
 				<h3>Site antigo está desativado temporáriamente</h3>
 			</header>
 			<p>	<a href="http://webmail.rcastilho.com.br">Caixa de Correio</a> </p>
@@ -35,7 +40,8 @@
 				</p>
 			<footer>
 				<!--<a href="http://www.rcastilho.com.br/blog/SiteRobson/amp">Link para página AMP - v 2.0</a>-->
-				<a href="http://www.rcastilho.com.br/blog.php?formato=amp">Link para página AMP</a>
+				<a href="http://www.rcastilho.com.br/blog.php?formato=amp">Link para página AMP</a>				
+				<!--<a href="blog.php?formato=amp">Link para página AMP v 1.1</a>-->
 
 			</footer>
 		</article>
